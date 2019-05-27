@@ -12,6 +12,13 @@ p {
     text-align: center;
 }
 
+img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 270px;
+}
+
 h1 {
     text-align: center;
     letter-spacing: 20px;
@@ -29,7 +36,31 @@ body {
     margin: auto;
 }
 
+a {
+    text-decoration: none;
+    color: #222222;
+    text-align: center;
+    box-shadow: 1px 2px;
+    border: 1px solid #dddddd;
+    border-radius: 10px;
+}
+
+a:hover {
+    filter: brightness(50%);
+}
+
 .fa-bars {
     float: left;
     color: #222222;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.profile {
+    border-radius: 100%;
 }
