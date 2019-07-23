@@ -10,3 +10,8 @@
     align-content: center;
     justify-content: center;
 }
+
+.portfolio-item-img {
+    display: block;
+    margin: 5px auto;
+}

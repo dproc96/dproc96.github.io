@@ -4,6 +4,10 @@
     border-radius: 10px;
     background-color: #7E82D9;
     text-align: center;
-    max-width: 60%;
     box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.card-large {
+    width: 900px;
+    max-width: 90%;
 }

@@ -4,10 +4,14 @@
     margin-right: auto;
 }
 
-.card:hover {
+.portfolio-item:hover {
     filter: brightness(60%);
 }
 
-.card:active {
+.portfolio-item:active {
     filter: brightness(30%);
+}
+
+button:hover {
+    cursor: pointer;
 }

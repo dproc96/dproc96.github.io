@@ -1,5 +1,5 @@
 body {
-    background-color: #D9B29C;
+    background-image: url("../images/floor-tile.png");
     color: #26100E;
     font-family: 'Roboto', sans-serif;
 }
@@ -15,6 +15,7 @@ img {
     width: 350px;
     height: 165px;
     max-width: 100%;
+    border: 1px rgba(0, 0, 0, 0.2) solid;
 }
 
 h1 {
@@ -26,6 +27,13 @@ h1 {
 }
 
 h3 {
+    font-size: 24px;
+    font-weight: 500;
+    padding: 10px;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+h4 {
     font-size: 18px;
     font-weight: 500;
     padding: 10px;
@@ -36,5 +44,30 @@ p {
     text-align: center;
     display: block;
     margin: 20px auto;
-    width: 60%;
+}
+
+a {
+    display: block;
+    padding: 5px;
+    margin: 15px auto;
+    text-decoration: none;
+    font-weight: 700;
+    color: darkblue;
+    background-color: #D9B29C;
+    width: 200px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+button {
+    display: block;
+    padding: 5px;
+    margin: 15px auto;
+    text-decoration: none;
+    font-weight: 700;
+    color: darkblue;
+    background-color: #D9B29C;
+    width: 100px;
+    border-radius: 5px;
+    border: none;
 }
