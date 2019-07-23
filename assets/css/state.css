@@ -1,0 +1,13 @@
+.centered {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card:hover {
+    filter: brightness(60%);
+}
+
+.card:active {
+    filter: brightness(30%);
+}

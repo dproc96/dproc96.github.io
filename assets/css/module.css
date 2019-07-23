@@ -1,0 +1,12 @@
+.image__circle {
+    width: 100px;
+    height: auto;
+    border-radius: 100%;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}

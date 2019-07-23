@@ -1,0 +1,40 @@
+body {
+    background-color: #D9B29C;
+    color: #26100E;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #7E82D9;
+    box-shadow: 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+img {
+    width: 350px;
+    height: 165px;
+    max-width: 100%;
+}
+
+h1 {
+    padding: 26px;
+    font-size: 48px;
+    font-weight: 700;
+    font-family: 'Fjalla One', sans-serif;
+    letter-spacing: 5px;
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+p {
+    text-align: center;
+    display: block;
+    margin: 20px auto;
+    width: 60%;
+}
