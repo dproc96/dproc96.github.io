@@ -1,10 +1,18 @@
 const projects = {
+    "xip-to": {
+        title: "XiP-TO",
+        github: "https://github.com/dproc96/UOFTCBC-project-two",
+        link: "http://xip-to.herokuapp.com/",
+        role: "Lead Front End Developer",
+        description: "Built in 10 days. A web platform that allows user to share and interact with various experiences around Toronto.",
+        image: "assets/images/xip-to.png"
+    },
     moodomovie: {
         title: "Moodomovie",
         github: "https://github.com/JasperJRoth/MoodoMovie",
         link: "https://jasperjroth.github.io/MoodoMovie/",
         role: "Lead Algorithm Engineer",
-        description: "A web application that recommends movies based on a plain English input by the user describing what kind of movie they want.",
+        description: "Built in 10 days. A web application that recommends movies based on a plain English input by the user describing what kind of movie they want.",
         image: "assets/images/moodomovie.png"
     },
     starWars: {

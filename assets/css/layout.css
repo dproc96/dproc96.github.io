@@ -2,7 +2,7 @@
     margin: 10px;
     padding: 10px;
     border-radius: 10px;
-    background-color: #7E82D9;
+    background-color: rgba(126, 130, 217, 0.5);
     text-align: center;
     box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
 }
