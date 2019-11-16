@@ -6,6 +6,7 @@ body {
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
     letter-spacing: 1px;
     background-image: url("../images/dan.jpg");
+    background-position: center;
 }
 
 h1, h2, h3 {

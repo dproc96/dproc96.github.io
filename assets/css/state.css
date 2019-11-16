@@ -8,3 +8,17 @@ button:hover {
     cursor: pointer;
     filter: brightness(80%);
 }
+
+@media only screen and (max-width: 768px) {
+    .project__odd img, .project__even img {
+        float: none;
+        display: block;
+        margin: 5px auto;
+        width: 90%;
+        height: auto;
+    }
+
+    .portfolio--project button {
+        margin: 5px;
+    }
+}
