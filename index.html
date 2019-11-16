@@ -5,69 +5,103 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Dan Proctor</title>
-
-    <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Roboto&display=swap" rel="stylesheet">
-
-    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
-
+    <link href="https://fonts.googleapis.com/css?family=EB+Garamond:400,700|Montserrat:400,400i,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/base.css">
     <link rel="stylesheet" href="assets/css/layout.css">
     <link rel="stylesheet" href="assets/css/module.css">
     <link rel="stylesheet" href="assets/css/state.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/9f2b75d707.js" crossorigin="anonymous"></script>
+    
 </head>
 <body>
-    <header>
-        <div class="flex">
+    <div id="landing">
+        <div>
             <h1>Dan Proctor</h1>
-            <img class="image__circle" src="assets/images/profile.jpg" alt="profile">
-    
+            <h3>Front End Specialist / Full Stack Developer</h3>
+        </div>
+        <div>
+            <a id="portfolio-open" href="#"><button>Portfolio</button></a>
+            <a href="https://www.linkedin.com/in/daniel-proctor-686a3289/" target="_blank" rel="noopener noreferrer"><button>LinkedIn</button></a>
+            <a href="https://github.com/dproc96" target="_blank" rel="noopener noreferrer"><button>Github</button></a>
+            <a href="assets/documents/DanProctor_Resume.pdf" target="_blank" rel="noopener noreferrer"><button>Resume</button></a>
+        </div>
+        <a href="mailto:dan@danproctor.ca"><button id="contact">Email Me</button></a>
+    </div>
+
+    <div id="portfolio">
+        <div id="portfolio--header">
+            <i id="close" class="fas fa-times"></i>
+
+            <h2>Portfolio</h2>
         </div>
 
-        <p>Full Stack Web Developer, Economics graduate, and lifelong learner currently seeking a position to utilize my knowledge of statistics, decision making, algorithms, and programming. Strong interpersonal skills and game theory background.</p>
+        <div id="portfolio--items">
+            <div class="portfolio--project project__odd">
+                <img class="project--image" src="assets/images/chefd.png" alt="chefd">
+                <div class="project--text">
+                    <div>
+                        <h3>Chef'd Meal Planner</h3>
+                        <h4>Lead Front End Developer (React)</h4>
+                        <p class="italic">React.js, Node.js, Express, MongoDB, Green Sock Animation Platform, Cheerio</p>
+                    </div>
+                    <p>A web application for planning meals based on your pantry contents. Utilizes recipes scraped from Serious Eats.</p>
+                    <div>
+                        <a target="_blank" rel="noopener norefferer" href="https://chefd-meal-planner.herokuapp.com/"><button>View Deployment</button></a>
+                        <a target="_blank" rel="noopener norefferer" href="https://github.com/dproc96/chefd"><button>View Repository</button></a>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio--project project__even">
+                <img class="project--image" src="assets/images/xip-to.png" alt="xip-to">
+                <div class="project--text">
+                    <div>
+                        <h3>XiP-TO</h3>
+                        <h4>Lead Front End Developer</h4>
+                        <p class="italic">Node.js, Handlebars, HTML, CSS, Express, MySQL, Heroku</p>
+                    </div>
+                    <p>Built in 10 days. A web platform that allows user to share and interact with various experiences around Toronto.</p>
+                    <div>
+                        <a target="_blank" rel="noopener norefferer" href="http://xip-to.herokuapp.com/"><button>View Deployment</button></a>
+                        <a target="_blank" rel="noopener norefferer" href="https://github.com/dproc96/xip-to"><button>View Repository</button></a>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio--project project__odd">
+                <img class="project--image" src="assets/images/moodomovie.png" alt="moodomovie">
+                <div class="project--text">
+                    <div>
+                        <h3>Moodomovie</h3>
+                        <h4>Lead Algorithm Engineer</h4>
+                        <p class="italic">Javascript, HTML, CSS, Firebase, AJAX</p>
+                    </div>
+                    <p>Built in 10 days. A web application that recommends movies based on a plain English input by the user describing what kind of movie they want.</p>
+                    <div>
+                        <a target="_blank" rel="noopener norefferer" href="https://jasperjroth.github.io/MoodoMovie/"><button>View Deployment</button></a>
+                        <a target="_blank" rel="noopener norefferer" href="https://github.com/JasperJRoth/MoodoMovie"><button>View Repository</button></a>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio--project project__even">
+                <img class="project--image" src="assets/images/starwars.png" alt="star wars">
+                <div class="project--text">
+                    <div>
+                        <h3>Star Wars 8-Bit Combat</h3>
+                        <h4>Solo Project</h4>
+                        <p class="italic">Javascript, HTML, CSS</p>
+                    </div>
+                    <p>A one on one single player fighting game with a basic AI based on the Star Wars Original Trilogy</p>
+                    <div>
+                        <a target="_blank" rel="noopener norefferer" href="https://dproc96.github.io/star-wars-combat/"><button>View Deployment</button></a>
+                        <a target="_blank" rel="noopener norefferer" href="https://github.com/dproc96/star-wars-combat"><button>View Repository</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-        <div class="flex">
-            <a href="https://www.linkedin.com/in/daniel-proctor-686a3289/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-            <a href="https://github.com/dproc96" target="_blank" rel="noopener noreferrer">Github</a>
-            <a href="assets/documents/DanProctor_Resume.pdf" target="_blank" rel="noopener noreferrer">View Resume</a>
-            <a href="mailto:dan.s.proctor@gmail.com">Email Me</a>
-        </div>
-    </header>
-
-    <main class="flex">
-        <div class="card portfolio-item" data-project="xip-to">
-            <img class="portfolio-item-img" src="assets/images/xip-to.png" alt="">
-            <h3>XiP-TO</h3>
-        </div>
-        <div class="card portfolio-item" data-project="moodomovie">
-            <img class="portfolio-item-img" src="assets/images/moodomovie.png" alt="">
-            <h3>Moodomovie</h3>
-        </div>
-        <div class="card portfolio-item" data-project="starWars">
-            <img class="portfolio-item-img" src="assets/images/starwars.png" alt="">
-            <h3>Star Wars Combat</h3>
-        </div>
-        <div class="card portfolio-item" data-project="breakout">
-            <img class="portfolio-item-img" src="assets/images/breakout.png" alt="">
-            <h3>Breakout</h3>
-        </div>
-        <div class="card portfolio-item" data-project="trainScheduler">
-            <img class="portfolio-item-img" src="assets/images/trainscheduler.png" alt="">
-            <h3>Train Scheduler</h3>
-        </div>
-        <div class="card portfolio-item" data-project="rps">
-            <img class="portfolio-item-img" src="assets/images/rps.png" alt="">
-            <h3>Rock Paper Scissor Multiplayer</h3>
-        </div>
-        <div class="card portfolio-item" data-project="giftastic">
-            <img class="portfolio-item-img" src="assets/images/giftastic.png" alt="">
-            <h3>Giftastic</h3>
-        </div>
-    </main>
-
-    <footer>
-        &copy; Daniel Proctor 2019
-    </footer>
+    <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js"></script>
 
     <script src="assets/javascript/logic.js"></script>
 </body>

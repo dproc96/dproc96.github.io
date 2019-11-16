@@ -1,83 +1,50 @@
 body {
-    background-image: url("../images/floor-tile.png");
-    color: #26100E;
     font-family: 'Roboto', sans-serif;
+    width: 100vw;
+    height: 100vh;
+    color: #eeeeee;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+    letter-spacing: 1px;
+    background-image: url("../images/dan.jpg");
 }
 
-header {
-    margin-bottom: 20px;
-    padding: 10px;
-    background-color: rgb(126, 130, 217, 0.8);
-    box-shadow: 1px 1px rgba(0, 0, 0, 0.2);
-}
-
-footer {
-    margin-top: 60px;
-    padding: 10px;
-    background-color: #7E82D9;
-    font-size: 10px;
-    color: #dddddd;
-    text-align: center;
-}
-
-img {
-    width: 350px;
-    height: 165px;
-    max-width: 100%;
-    border: 1px rgba(0, 0, 0, 0.2) solid;
+h1, h2, h3 {
+    font-family: 'EB Garamond', serif;
+    font-weight: 700;
 }
 
 h1 {
-    padding: 26px;
     font-size: 48px;
-    font-weight: 700;
-    font-family: 'Fjalla One', sans-serif;
-    letter-spacing: 5px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 32px;
 }
 
 h3 {
     font-size: 24px;
-    font-weight: 500;
-    padding: 10px;
-    font-family: 'Fjalla One', sans-serif;
+    margin-bottom: 5px;
 }
 
 h4 {
     font-size: 18px;
-    font-weight: 500;
-    padding: 10px;
-    font-family: 'Fjalla One', sans-serif;
-}
-
-p {
-    text-align: center;
-    display: block;
-    margin: 20px auto;
-}
-
-a {
-    display: block;
-    padding: 5px;
-    margin: 15px auto;
-    text-decoration: none;
     font-weight: 700;
-    color: darkblue;
-    background-color: #D9B29C;
-    width: 200px;
-    border-radius: 5px;
-    text-align: center;
-    box-shadow: 1px 1px rgba(0, 0, 0, 0.2);
+    margin-bottom: 3px;
+}
+
+img {
+    width: 360px;
+    height: 180px;
+    object-fit: cover;
 }
 
 button {
-    display: block;
     padding: 5px;
-    margin: 15px auto;
-    text-decoration: none;
-    font-weight: 700;
-    color: darkblue;
-    background-color: #D9B29C;
-    width: 100px;
-    border-radius: 5px;
+    border-radius: 0px;
     border: none;
+    font-family: 'Garamond', serif;
+    font-size: 14px;
+    width: 150px;
+    margin: 0px 5px;
 }
