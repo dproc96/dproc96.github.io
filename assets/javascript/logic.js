@@ -1,5 +1,7 @@
 const tl = gsap.timeline({ paused: true, ease: Power1.easeInOut });
 
+const duration = .5
+
 tl.to("#portfolio", {
     duration: 0,
     css: {
@@ -12,7 +14,7 @@ tl.to("#portfolio", {
         right: "400px"
     }
 }, {
-        duration: 2,
+        duration: duration,
         css: {
             opacity: 1,
             right: "0px"
@@ -24,24 +26,24 @@ tl.to("#portfolio", {
         left: "400px"
     }
 }, {
-        duration: 2,
+        duration: duration,
         css: {
             opacity: 1,
             left: "0px"
         }
-}, "-=2").fromTo("#portfolio--header", {
+}, `-=${duration}`).fromTo("#portfolio--header", {
     css: {
         opacity: 0,
         display: "block",
         top: "-50px"
     }
 }, {
-        duration: 2,
+        duration: duration,
         css: {
             opacity: 1,
             top: "0px"
         }
-}, "-=2");
+}, `-=${duration}`);
 
 $("#portfolio-open").click(() => {
     tl.play();
