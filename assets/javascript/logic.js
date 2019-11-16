@@ -1,4 +1,4 @@
-const tl = gsap.timeline({ paused: true, ease: Power1.easeInOut });
+const tl = gsap.timeline({ paused: true, ease: Power2.easeOut });
 
 const duration = .5
 
@@ -11,7 +11,7 @@ tl.to("#portfolio", {
     css: {
         opacity: 0,
         display: "block",
-        right: "400px"
+        right: "300px"
     }
 }, {
         duration: duration,
@@ -23,7 +23,7 @@ tl.to("#portfolio", {
     css: {
         opacity: 0,
         display: "block",
-        left: "400px"
+        left: "300px"
     }
 }, {
         duration: duration,
