@@ -4,7 +4,7 @@ button:hover {
     font-weight: 700;
 }
 
-#close:hover {
+#close:hover, #close-skills:hover {
     cursor: pointer;
     filter: brightness(80%);
 }
@@ -24,5 +24,13 @@ button:hover {
 
     body {
         background-position: center;
+    }
+
+    h2 {
+        width: min-content;
+    }
+    
+    li {
+        width: min-content;
     }
 }

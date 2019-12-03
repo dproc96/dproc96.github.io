@@ -2,12 +2,15 @@
     font-style: italic;
 }
 
-#contact {
+.btn-large {
     width: 200px;
     font-size: 18px;
 }
 
-#close {
-    float: left;
+#close, #close-skills {
+    position: absolute;
+    top: 25px;
+    left: 25px;
     font-size: 24px;
+    z-index: 2;
 }

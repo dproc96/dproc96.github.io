@@ -44,7 +44,7 @@
     margin-right: 15px;
 }
 
-#portfolio {
+#portfolio, #skills {
     position: absolute;
     top: 0;
     left: 0;
@@ -79,4 +79,23 @@
 
 #landing button {
     margin: 15px 5px;
+}
+
+#skills-top {
+    background-color: rgba(100, 98, 98, 0.92);
+    grid-area: top;
+}
+
+#skills-other {
+    background-color: rgba(134, 133, 133, 0.92);
+    grid-area: other;
+}
+
+#skills-top, #skills-other {
+    position: relative;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
 }
