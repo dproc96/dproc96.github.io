@@ -1,4 +1,4 @@
-const tl = gsap.timeline({ paused: true, ease: Power2.easeOut });
+const tl = gsap.timeline({ paused: true, ease: Power2.easeOut});
 const tlSkills = gsap.timeline({ paused: true, ease: Power2.easeOut });
 
 const duration = .5

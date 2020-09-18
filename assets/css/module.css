@@ -9,8 +9,8 @@
 
 #close, #close-skills {
     position: absolute;
-    top: 25px;
-    left: 25px;
+    top: 20px;
+    right: 25px;
     font-size: 24px;
     z-index: 2;
 }
